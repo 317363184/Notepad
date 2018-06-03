@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_8296756d1c1fd2a49c43fc5234acd1f7f740bf18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.oguzdev-CircularFloatingActionMenu-1.0.2_d0a4b9c1cf29f0274265e6e96a60ee1d4c256b6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\lib\Sunflower.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a8c9c517d66ce011356a686059be91d32a89bc2">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\Sunflower_f8cfaea49a3a8bcb28dbeaf37ac0325ea44f96b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\lib\Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0236f027003cdd0bcb8009322c7a791fe9d2356c">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\Msc_d0fc4eacfcc6450de90c1d0782ccc2dddcc2304d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_66e744ff966ede44b244c6dac8b6a27f9b7de9a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_f3e659f1a67772091912b2edc2d4d9207836ebb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\uk.co.chrisjenx\calligraphy\2.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\uk.co.chrisjenx-calligraphy-2.2.0_21582094909e23f6dcc68ea2ceb7c1c9000f1a88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_f153597ef0ba0a28d918937fe06e81a5d255f3e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_7eef1bb4a9be2df8888babca0d36b0add90b5388.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_1234a02f256721d391b1147a061f7ef28253ecfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_1178eaac00284bb9ded87a43d6cb1f7e26fad06a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sir\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_34574a2ba734422a8a1c51222503d23f649c9ba3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_c349e56ff9014974f3edb6574156540c4f9d36e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\qizhong\NotePadMay\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\qizhong\NotePadMay\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_52b113e05cc9c867cfba3a303fb0022962eae971.jar" />
+    </item>
+
+</items>
