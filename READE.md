@@ -1,21 +1,24 @@
 # NotePadMay
-initial
-## 一.功能介绍：
-### 1.时间戳</br>
-### 2.便签搜索（根据标题模糊搜索）</br>
-### 3.UI美化</br>
-### 4.背景颜色更改(对话框弹出式)</br>
+基本要求和附加功能  （给分点）请直接跳转到    **三、功能演示** 
+## 一.基本功能介绍：
+### 1.时间戳
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz5096v9vj30u01hc14j.jpg)
+
+### 2.便签搜索（根据标题及内容模糊搜索）
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz54ss4xgj30u01hcwqf.jpg)
+
+
 ## 二.技术分析：
-### 1.时间戳分析：</br>
-因为数据库中已有时间字段，所以只需要格式化时间存入即可</br>
-NoteEditor.updateNote()函数中修改</br>
+### 1.时间戳分析：
+因为数据库中已有时间字段，所以只需要格式化时间存入即可
+NoteEditor.updateNote()函数中修改
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式</br>
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, df.format(new Date()));
  ### 2.便签搜索
    private void addSearchView() 
    {
         //给listview添加头部(search)
-        
+
         View v=View.inflate(this, R.layout.notelistheader,null);
         getListView().addHeaderView(v);
         //给搜索框添加搜索功能
@@ -34,7 +37,7 @@ NoteEditor.updateNote()函数中修改</br>
                             NotePad.Notes.DEFAULT_SORT_ORDER  // Use the default sort order.
                     );
                     adapter.swapCursor(search_cursor);//用搜索结果的cursor刷新listview
-
+    
                 }else {
                     if (cursor!=null)//删除搜索框中的text后刷新listview
                     adapter.swapCursor(cursor);//刷新listview
@@ -78,31 +81,38 @@ NoteEditor.updateNote()函数中修改</br>
             linearLayout.addView(imageView);
         }
         builder.setView(view).create().show();
-
+    
     }
-## 二.功能演示
+## 三.功能演示
 ### 1>基本功能
 #### 1.notepad的主界面</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/notepad%E4%B8%BB%E7%95%8C%E9%9D%A2.png">
+包含了时间戳
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz5096v9vj30u01hc14j.jpg)
 
 #### 2.添加便签</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E6%B7%BB%E5%8A%A0%E4%BE%BF%E7%AD%BE.png">
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz524k5rnj30u01hcqjf.jpg)
 
-#### 3.添加便签后的界面</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E6%B7%BB%E5%8A%A0%E5%90%8E%E7%9A%84%E7%95%8C%E9%9D%A2.png">
+#### 3.点击搜索</br>
+添加了搜索功能
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz54ss4xgj30u01hcwqf.jpg)
 
-#### 4.点击搜索</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2.png">
+### 2>扩展功能（加分点）
+#### 1.UI 美化
+- 使用 android 原生控件，针对移动端手机操作进行了优化，提升了用户使用体验。
+- 同时加入了主题色、背景色调整，增加了用户的人性化体验。
 
-#### 5.搜索结果</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C.png">
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz564hqbjj30u01hc47h.jpg)
 
-### 2>扩展功能
 #### 1.改变背景色
 点击屏幕下方按钮：点开有惊喜！
-</br>
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E9%80%89%E6%8B%A9%E8%83%8C%E6%99%AF%E8%89%B2.png">
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz564hqbjj30u01hc47h.jpg)
 
-#### 2.改变后的界面
-<img width="500" height="750" src="https://github.com/Incredible-May/NotePadMay/blob/master/image/%E6%94%B9%E5%8F%98%E8%83%8C%E6%99%AF%E8%89%B2.png">
+改变后的界面
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz56b2u8cj30u01hck36.jpg)
 
+#### 2.语音笔记
+通过讯飞的接口，实现了语音识别记笔记
+![](https://ws1.sinaimg.cn/large/006dRdovgy1frz56qqpocg30go0tn7wi.jpg)
+语音识别技术实现参考博客：
+
+[](http://www.andyqian.com/2016/06/20/android/android_voice(2)/)
