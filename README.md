@@ -115,4 +115,4 @@ NoteEditor.updateNote()函数中修改
 ![](https://ws1.sinaimg.cn/large/006dRdovgy1frz56qqpocg30go0tn7wi.jpg)
 语音识别技术实现参考博客：
 
-[](http://www.andyqian.com/2016/06/20/android/android_voice(2)/)
+[http://www.andyqian.com/2016/06/20/android/android_voice(2)/](http://www.andyqian.com/2016/06/20/android/android_voice(2)/)
