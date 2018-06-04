@@ -2,9 +2,11 @@
 基本要求和附加功能  （给分点）请直接跳转到    **三、功能演示** 
 ## 一.基本功能介绍：
 ### 1.时间戳
+
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz5096v9vj30u01hc14j.jpg width="480px" align=center/>
 
 ### 2.便签搜索（根据标题及内容模糊搜索）
+
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz54ss4xgj30u01hcwqf.jpg width="480px" align=center/>
 
 
@@ -86,33 +88,38 @@ NoteEditor.updateNote()函数中修改
 ## 三.功能演示
 ### 1>基本功能
 #### 1.notepad的主界面</br>
-包含了时间戳
+包含了时间戳</br>
+
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz5096v9vj30u01hc14j.jpg width="480px" align=center/>
 
 #### 2.添加便签</br>
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz524k5rnj30u01hcqjf.jpg width="480px" align=center/>
 
 #### 3.点击搜索</br>
-添加了搜索功能
+添加了搜索功能</br>
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz54ss4xgj30u01hcwqf.jpg width="480px" align=center/>
 
 ### 2>扩展功能（加分点）
 #### 1.UI 美化
 - 使用 android 原生控件，针对移动端手机操作进行了优化，提升了用户使用体验。
 - 同时加入了主题色、背景色调整，增加了用户的人性化体验。
+</br>
 
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz564hqbjj30u01hc47h.jpg width="480px" align=center/>
 
 #### 1.改变背景色
 点击屏幕下方按钮：点开有惊喜！
+</br>
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz564hqbjj30u01hc47h.jpg width="480px" align=center/>
 
 改变后的界面
+</br>
 <img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz56b2u8cj30u01hck36.jpg width="480px" align=center/>
 
 #### 2.语音笔记
 通过讯飞的接口，实现了语音识别记笔记
-<img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz56qqpocg30go0tn7wi.jpg width="480px" align=center/>
+</br>
+<img src=https://ws1.sinaimg.cn/large/006dRdovgy1frz56qqpocg30go0tn7wi.jpg width="480px" align=center/></br>
 语音识别技术实现参考博客：
 
 [http://www.andyqian.com/2016/06/20/android/android_voice(2)/](http://www.andyqian.com/2016/06/20/android/android_voice(2)/)
